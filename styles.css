@@ -85,7 +85,11 @@ header{
 .slader{
     max-width: 1196px;
     margin:0 auto ;
+    height: 415px;
     
+}
+.slider-item{
+    height: 415px;
 }
 .slider-item h1{
     font-size: 49px;
@@ -112,13 +116,13 @@ header{
     font-weight: 500;
 }
 .slider-bg1{
-    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg1.png);
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg1.jpg);
 }
 .slider-bg2{
-    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg2.png);
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bd3.jpg);
 }
 .slider-bg3{
-    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg3.png);
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg2.jpg);
 }
 .slider-item{
     background-repeat: no-repeat;
@@ -472,9 +476,15 @@ footer a{
     gap: 14px;
     flex-direction: column;
 }
-.lol-img{
+body{
     background: url(images/lol-img.jpg);
 }
 .lol-sys{
     background: none;
+}
+.conservi{
+    content:url(images/conserv.png); 
+}
+.conservi-fon{
+    background: url(images/conserv.jpg);
 }
